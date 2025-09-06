@@ -1207,7 +1207,7 @@ If you wish to exercise any of these rights, please contact us at the contact de
     testi2:
       "Enjoy top-quality IPTV with premium sports and entertainment from around the world. Stream over 100,000 movies and series in stunning FHD/4K, complete with Swedish subtitles. Experience seamless access to global content-all in one powerful IPTV platform.",
     name3: "Entertainment for Kids of All Ages",
-    testi13:
+    testi3:
       "Our IPTV service provides a safe and enjoyable streaming experience specifically designed for children. From timeless Disney classics to the latest kid-friendly shows, there's something for every age. Keep your little ones entertained with fun, educational, and age-appropriate content-all in one place.",
   },
   Dmca_Content: {
