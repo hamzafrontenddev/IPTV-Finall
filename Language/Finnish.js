@@ -1,0 +1,1468 @@
+import { title } from "process";
+
+const Finnish = {
+  header: {
+    Home: "KOTIIN",
+
+    Guides: "OPPAAT",
+    Channels: "KANAVAT",
+    Free_Trial: "ILMAINEN KOKEILU",
+    Reseller: "JÄLLEENMYYJÄ",
+    Pricing: "HINNOITTELU",
+    Contact_us: "Ota yhteyttä",
+    FAQ: "Usein kysytyt kysymykset",
+    Blog: "Blogit",
+    Troubleshooting: "Vianmääritys",
+    Privacy_Policy: "Tietosuojakäytäntö",
+    Refund_Policy: "Refund Policy",
+    Get_in_Touch: "Get in Touch",
+    Terms_of_Conditions: "Ehdot",
+    Support: "Tietoa meistä",
+    button_text: "Ota yhteyttä",
+  },
+  footer: {
+    Home: "KOTIIN",
+    About_us: "Tietoa meistä",
+    DMCA: "DMCA",
+    PrivacyPolicy: "Tietosuojakäytäntö",
+    TermsAndCondition: "Ehdot",
+    Pricing: "HINNOITTELU",
+    Troubleshoot: "Vianmääritys",
+    FAQs: "Usein kysytyt kysymykset",
+    Blogs: "Blogit",
+    button_text: "Aloita",
+
+    Apple_TV: "Apple TV",
+    Smart_Tv: "Smart TV",
+    Mobil_Surfplatta: "Mobil/Surfplatta",
+    Datorn: "Computer (Windows/Macbook)",
+    Android_Box: "Android Box",
+    Formuler_Box: "Formuler Box",
+    TVIP_Box: "TVIP Box",
+    Onyx_Box: "Onyx Box",
+
+    p1: "Suoratoista yli 45 000 live-kanavaa, elokuvia tilauksesta ja 4K-sisältöä ExpressIPTV:llä – nopeasti, turvallisesti ja täysin puskuroimattomalla tavalla kaikilla laitteillasi. Kokeile sitä ilmaiseksi jo tänään osoitteessa",
+    link1: "ExpressIPTV.com",
+    h1: "Short Links",
+    h2: "Instructions",
+    h3: "Contact",
+    p2: "Saatavilla päivittäin klo 10:00 AM – 12:00 AM",
+    p3: "Telegram: Liity seuraamme saadaksesi LIVE-päivityksiä",
+    p4: "expresstv@hushmail.me",
+    p5: "Copyright 2025 | All rights reserved",
+  },
+  hero_section: {
+    heading: "IPTV:n seuraava taso - Sujuva, nopea, rajoittamaton",
+    highlighted_text: "Express IPTV!",
+    subheading:
+      "Nauti parhaasta viihteestä IPTV:n avulla – yli 45 000 kanavaa, elokuvaa ja sarjaa, mukaan lukien Sky Sports, Eurosport, FOX ja CNN. Striimaa HD-laadulla puskuroimatta millään laitteella – Smart TV:llä, mobiililaitteella ja muilla laitteilla. Nopea asennus, keskeytymätön katselu.",
+    button_text: "Katso pakettimme",
+  },
+  Resller: {
+    h2: "Ryhdy Express TV -jälleenmyyjäksi",
+    p1: "Avaa ovi toistuville tuloille liittymällä Express TV -jälleenmyyjäohjelmaan. Laadukkaiden suorien TV-lähetysten ja on-demand-videoiden räjähdysmäisen kysynnän vuoksi ei ole koskaan ollut parempaa aikaa muuttaa verkkosi voittokoneeksi.",
+    h31: "Miksi myydä Express TV:tä?",
+    p2: "IPTV-markkinat kasvavat valtavasti, kun yhä useammat ihmiset luopuvat kaapelista ja siirtyvät käyttämään vaihtoehtoisia ratkaisuja perinteisen kaapelin lisäksi. Miljoonat etsivät edullisia, laadukkaita suoratoistopalveluita, ja Express TV on rakennettu vastaamaan tähän kysyntään huippuluokan suorituskyvyllä ja luotettavuudella. Jälleenmyyjänä voit hyödyntää näitä kukoistavia markkinoita palvelulla, joka todella tuottaa.",
+    p3: "Yksi Express-TV-jälleenmyyjäksi ryhtymisen suurimmista eduista on mahdollisuus saada johdonmukaisia, tilausperusteisia tuloja. Kun katsojat ovat tyytyväisiä kokemukseensa, he todennäköisemmin jatkavat kuukaudesta toiseen. Tämä luo tasaisen virran toistuvista tuloista ja lisää asiakkaasi arvoa, kun uskollisten asiakkaiden määrä kasvaa.",
+    p4: "Express TV tarjoaa myös maailmanlaajuisen kattavuuden. Olipa yleisösi Yhdysvalloissa, Isossa-Britanniassa, Kanadassa, Euroopassa tai kauempana, voit antaa heille pääsyn yli 18 000 live-kanavaan ja yli 40 000 elokuvaan ja sarjaan. Riippumatta siitä, missä asiakkaasi ovat, Express TV tarjoaa täydellisen viihderatkaisun, johon he voivat luottaa.",
+    h4: "Jälleenmyyjän tärkeimmät ominaisuudet",
+    th1: "Toiminto",
+    th2: "Etu",
+    td1: "Kattava ohjauspaneeli",
+    td2: "Luo, laajenna ja valvo helposti kaikkia tilauslinjoja.",
+    td3: "Rajoittamaton määrä ilmaisia ​​näytteitä",
+    td4: "Tarjoa 24 tunnin kokeilujaksoja houkutellaksesi nopeasti potentiaalisia asiakkaita ja lisätäksesi myyntiä.",
+    td5: "4K / FHD / HD / SD-streamit",
+    td6: "Tarjoa kristallinkirkasta, puskuritonta katselua kaikilla laitteilla.",
+    td7: "Suuri sisältökirjasto",
+    td8: "Live-TV, elokuvat, sarjat, urheilu ja PPV - kaikki yhdessä paikassa.",
+    td9: "Infinite Credits",
+    td10: "Osta kerran ja varaa milloin tahansa – täydellinen joustavaan kasvuun.",
+    td11: "24/7 tekninen tuki",
+    td12: "Saat asiantuntijatukea milloin tahansa sekä sinulle että asiakkaillesi.",
+    td13: "Ei IP-lukitusta",
+    td14: "Katso missä tahansa – ei maantieteellisiä rajoituksia.",
+    h5: "Usein kysytyt kysymykset",
+    h6: "Oletko valmis ansaitsemaan Express TV:llä?",
+    str1: "Kokeile ilmaiseksi:",
+    li1: "Tilaa riskitön kokeilujakso ja koe palvelu itse.",
+    str2: "Valitse paketti:",
+    li2: "Aloita 180 dollarin krediitillä.",
+    str3: "Aloita ja kasva:",
+    li3: "Parhaalla tuella ja marginaalilla menestys on vain napsautuksen päässä!",
+    link1: "Tilaa ilmainen kokeilu",
+    link2: "Ryhdy jälleenmyyjäksi",
+    h7: "Täydellinen opas IPTV-jälleenmyyjäpaneeliimme",
+    p5: "Tämä vaiheittainen opas kattaa kaiken, mitä sinun tulee tietää IPTV-jälleenmyyjäpaneelimme käyttämisestä – A:sta Z:hen. Olitpa vasta aloittamassa tai haluat parantaa taitojasi, tämä opas opastaa sinut koko prosessin läpi. Jos sinulla on kysyttävää matkan varrella, ota meihin yhteyttä live-chatin kautta saadaksesi tukea.",
+    p6: "IPTV-jälleenmyyjäksi ryhtyminen voi olla kannattava yritys. Mitä enemmän sijoitat, sitä suuremmat tulomahdollisuudet ovat. Jos olet uusi alalla, hallintapaneeli voi tuntua aluksi hieman ylivoimaiselta, mutta älä huoli – se on käyttäjäystävällinen ja tämä opas auttaa ymmärtämään, miten sitä käytetään tehokkaasti heti ensimmäisestä päivästä lähtien.",
+    p7: "Jälleenmyyjän kojelauta on jaettu kolmeen pääosaan, jotka ovat samanlaisia ​​kuin useimmat tavalliset kojelaudat:",
+    li4: "Ylin seuranta- ja tietopalkki – Näyttää tärkeät tilastot ja reaaliaikaiset päivitykset.",
+    li5: "Keskuspaneeli – Päätyöalue, jossa näytetään yksityiskohtaiset tili- ja asiakastiedot.",
+    li6: "Navigointivalikko vasemmalla – Tarjoaa nopean pääsyn kaikkiin jälleenmyyjäpaneelin toimintoihin ja työkaluihin.",
+    h8: "Tärkeitä tietoja ja seurantaa koskeva osio",
+    p8: "Tämä osio tarjoaa nopean yleiskatsauksen jälleenmyyjätilisi tärkeistä reaaliaikaisista tilastoista. Se sisältää:",
+    li7: "Online-käyttäjät – Näyttää aktiivisesti suoratoistavien käyttäjien nykyisen määrän.",
+    li8: "Myynti tänään – Näyttää, kuinka monta tilausta tai luottoa olet myynyt päivän aikana.",
+    li9: "Myynti tässä kuussa – seuraa kuluvan kuukauden kokonaismyyntiäsi.",
+    li10: "Aktiiviset tilaukset – Ilmaisee, kuinka monta aktiivista tilausta on tällä hetkellä käynnissä tililläsi.",
+    h9: "Keskivaiheen hyökkäysosio",
+    li11: "Vanhenee 1 viikon kuluttua: Näyttää tilit, jotka vanhenevat pian. Käytä hakutoimintoa ja avattavaa valikkoa suodattamiseen.",
+    li12: "Vanhentunut: Näyttää luettelon vanhentuneista tileistä tunnuksen, käyttäjänimen ja päivämäärän kanssa. Haku ja sivutus saatavilla.",
+    li13: "Asiakasportaalit/sovellukset: Kopioi portaalilinkit (esim. Mag Portal) Kopioi-painikkeella.",
+    li14: "10 parasta kanavaa tällä hetkellä: Näyttää 10 katsotuinta kanavaa.",
+    h10: "Vasen pääsysarake",
+    li15: "Dashboard: Tarkastele koko järjestelmän tietoja ja keskeisiä mittareita. Saat nopean yleiskatsauksen suorituskyvystä ja toiminnasta.",
+    li16: "Yhteydet: Hallinnoi ja valvo kaikkia aktiivisia yhteyksiä. Varmista sujuva integraatio ja tiedonkulku laitteiden välillä.",
+    li17: "Yhteyskartta: Visuaalinen esitys kaikista aktiivisista yhteyksistä. Seuraa helposti kunkin yhteyden tilaa ja kuntoa.",
+    li18: "Käyttäjät: Hallinnoi käyttäjätilejä ja käyttöoikeuksia. Luo, muokkaa ja poista käyttäjäprofiileja tarpeen mukaan.",
+    h11: "Käyttäjien hallinta",
+    p9: "Se näyttää luettelon käyttäjätileistä, jossa on seuraavat tiedot:",
+    str4: "ID:",
+    li19: "Jokaisen käyttäjän yksilöllinen tunniste.",
+    str5: "Käyttäjätunnus:",
+    li20: "Käyttäjän käyttäjätunnus.",
+    str6: "Salasana:",
+    li21: "Tiliin liitetty salasana.",
+    str7: "Vanhenemispäivä:",
+    li22: "Päivämäärä, jolloin käyttäjän käyttöoikeus päättyy.",
+    str8: "Huomautuksia:",
+    li23: "Käyttäjätiliin liittyviä lisähuomautuksia tai -tietoja.",
+    str9: "Nopeus:",
+    li24: "Nopeutta osoittava kenttä (tässä tapauksessa jätetään tyhjäksi).",
+    str10: "Yhteydet (Con):",
+    li25: "Näyttää käyttäjällä olevien aktiivisten yhteyksien määrän.",
+    str24: "Toimintaloki:",
+    li39: "Tarkista kaikki käyttäjä- ja järjestelmätoiminnot. Tunnista mahdolliset epäsäännölliset toiminnot tai ongelmat.",
+    str25: "Hyvitysloki:",
+    li40: "Näytä kaikki luottoon liittyvät toiminnot. Seuraa talletuksia, käyttöä ja muutoksia.",
+    str26: "Talletus:",
+    li41: "Hallinnoi ja seuraa talletustapahtumia. Varmista varojen tarkka seuranta ja käsittely.",
+    str11: "Katselu:",
+    li26: "Kenttä, joka voi näyttää käynnissä olevien toimintojen tai istuntojen määrän, joihin käyttäjä on osallistunut.",
+    str12: "IP:",
+    li27: "Käyttäjän IP-osoite (ei näy kuvassa).",
+    str13: "Omistaja:",
+    li28: "Henkilö tai yhteisö, joka omistaa käyttäjätilin.",
+    p10: "Toiminto-sarakkeessa on useita vaihtoehtoja, kuten käyttäjän muokkaaminen, tietojen vienti ja paljon muuta. Voit hallita käyttäjiä napsauttamalla vastaavia kuvakkeita. Voit myös lisätä käyttäjiä, lisätä testikäyttäjiä tai poistaa vanhentuneita rivejä käyttämällä käytettävissä olevia painikkeita. Lisäksi on suodattimia ja hakukenttä tiettyjen käyttäjien nopeaa lajittelua ja etsimistä varten.",
+    h12: "Tilin luomisen asetukset",
+    str14: "Luo rivityyppi:",
+    li29: "Valitse tilityyppi: Line (oletus), Mag (MAG-laite) tai Xtreamtv (XtreamTV-laite).",
+    str15: "Maa:",
+    li30: "Valitse maat, jotka haluat sisällyttää tai jättää pois valinnasta.",
+    str16: "Paketti:",
+    li31: "Valitse käytettävissä olevat tilausjaksot: 1, 3, 6 tai 12 kuukautta.",
+    str17: "Suurin sallittu yhteys:",
+    li32: "Määritä sallittujen samanaikaisten yhteyksien lukumäärä (esim. 1).",
+    str18: "Viimeinen voimassaolopäivä:",
+    li33: "Aseta tilin viimeinen voimassaolopäivä ja aika.",
+    str19: "Hinta:",
+    li34: "Syötä valitun paketin hinta.",
+    str20: "Krediittejä jäljellä:",
+    li35: "Näyttää tilillä käytettävissä olevat saldot.",
+    h13: "Hallitse laitteita ja lokeja",
+    str21: "Hallitse MAG-laitteita:",
+    li36: "Valvo ja määritä MAG-laitteita. Varmista sujuva toiminta ja laitehallinta.",
+    str22: "Hallitse Enigma-laitteita:",
+    li37: "Hallinnoi Enigma-laitteita. Tarkkaile heidän kuntoaan ja päivitä kokoonpanoja.",
+    str23: "Lokitiedostot:",
+    li38: "Käytä yksityiskohtaisia ​​tietoja järjestelmän toiminnoista. Seuraa kaikkia toimintoja alustalla.",
+    str21: "Toimintaloki:",
+    li36: "Tarkista kaikki käyttäjä- ja järjestelmätoiminnot. Tunnista epäsäännölliset toimet tai ongelmat.",
+    str22: "Luottohistoria:",
+    li37: "Katso kaikki luottoihin liittyvät toiminnot. Tarkkaile talletuksia, käyttöä ja säätöjä.",
+    str23: "Tallettaa:",
+    li38: "Hallitse ja seuraa talletustapahtumia. Varmista rahaston asianmukainen seuranta ja käsittely",
+    link3: "Ryhdy jälleenmyyjäksi",
+  },
+  stats_section: {
+    county: "Palvelualueet",
+    user: "Aktiiviset käyttäjät",
+    Live_tv: "Live-kanavat",
+    movie_series: "Booster + VOD",
+  },
+  features_section: {
+    Title: "TOIMINNOT",
+    heading: "Suosikkiesi nopea IPTV-suoratoisto – ",
+    highlighted_text: "ainutlaatuisia ominaisuuksia",
+    Live_TV: {
+      title: "Suora TV-lähetys",
+      description:
+        "Tutustu live-kanavien universumiin, olipa kyseessä urheilu tai viihde, reaaliajassa.",
+    },
+    video_play: {
+      title: "Video on Demand (VOD)",
+      description:
+        "Rajoittamaton pääsy henkilökohtaiseen, valtavaan elokuva- ja sarjavalikoimaan, joka on saatavilla milloin tahansa ja missä tahansa.",
+    },
+    Catchup_Tv: {
+      title: "Catch-up TV",
+      description:
+        "Et voi koskaan nukahtaa / myöhästyä katsomaan suosikkiohjelmiasi: haluatko seurata ohjelmia, jotka jäit väliin? Ei hätää!",
+    },
+    best_stream_section: {
+      title: "Paras suoratoistokokemus",
+      description:
+        "Koe vertaansa vailla oleva käyttömukavuus, kun pääset katsomaan suosikkiohjelmiasi ja -elokuviasi milloin tahansa ja missä tahansa.",
+    },
+    EPG: {
+      title: "EPG (sähköinen ohjelmaopas)",
+      description:
+        "Hanki uusin ohjelmaopas kätevällä, käyttäjäystävällisellä ohjelmaoppaalla siitä, mitä näytetään parhaillaan ja mitä tullaan näyttämään tulevaisuudessa.",
+    },
+    Multi_Language: {
+      title: "Tuki useille kielille",
+      description:
+        "Sinulla on kokemusta erilaisista tekstityssisällöistä ja äänikielistä ensisijaisen maailmanlaajuisen sisällön perusteella.",
+    },
+    Search_Filter_Options: {
+      title: "Haku- ja suodatusvaihtoehdot",
+      description:
+        "Selaa laajaa kirjastoamme ja suodata haluamasi tuotteet muutamassa sekunnissa.",
+    },
+
+    Button_text: "Start Watching Now",
+  },
+  about_section: {
+    Title: "STREAMLINE",
+    heading:
+      "Hanki Ruotsin paras IPTV. Tee tilaus ja suoratoista laadukkaasti nyt.",
+    Our_Mission_Card: {
+      title: "Turvalliset maksut",
+      description:
+        "Tarjoamme turvalliset maksut kaikilla ensisijaisilla maksutavoilla. Takaamme 100-prosenttisen suojan palkkallesi turvallisen maksujärjestelmän kautta.",
+    },
+    Our_Story_Card: {
+      title: "Ei sitoutumista",
+      description:
+        "Emme pidä tyytymättömistä asiakkaista, ja siksi sinulla ei ole pitkäaikaisia ​​sopimuksia. Tilauksesi voidaan evätä milloin tahansa ilman lisäkuluja.",
+    },
+  },
+  device_section: {
+    Title: "LAITTEET",
+    heading: "Ota suosikkisi mukaasi! - Lähetyksessä... ",
+    highlighted_text: "Mikä tahansa laite",
+    description:
+      "Katso suosikkisisältöäsi mistä tahansa paikasta ja milloin tahansa ja toista se helposti älytelevisioissa, matkapuhelintuotteessa, työpöydän verkkoselaimessa sekä mobiili- ja pöytätietokoneissa.",
+    TV: "TV",
+    Mobiles: "Mobiles",
+    Laptop: "Laptop",
+    Desktop: "Desktop",
+  },
+  NonStop_Entertainment_section: {
+    h1: "Ohjekeskus - Usein kysytyt kysymykset",
+    heading: "Loputonta viihdettä ",
+    highlighted_text: "lyömättömään hintaan!",
+    pricing_description: "Voit nyt aloittaa katselun ",
+    pricing: "vain 9,99 dollarilla kuukaudessa!",
+    pricing_description_othertext: " nauti:",
+    option: {
+      first_option:
+        "Tarkkaile rakastetuimpia joukkueitasi ja osallistu niiden otteluihin teräväpiirtona.",
+      second_option:
+        "Katso parhaiten arvioidut sarjat ja jännittävät uudet ohjelmat napin painalluksella.",
+      third_option:
+        "Hae laajasta valikoimasta elokuvia ja informatiivisia dokumentteja, jotka ovat kaikki saatavilla saman katon alta.",
+    },
+    button_text: "osta nyt",
+  },
+  pricing_section: {
+    heading: "(USA, Kanada, Iso-Britannia)",
+    highlighted_text: "Englanninkieliset IPTV-paketit",
+    description:
+      "Suoratoista parasta englantilaista viihdettä – suosikkikanavasi ja -ohjelmasi, saatavilla milloin tahansa",
+    title1: "Scandinavian",
+    p1: "Käytä skandinaavista ensiluokkaista sisältöä – parasta pohjoismaista viihdettä milloin ja missä tahansa",
+    arbic_title: "Arabialainen IPTV-paketti",
+    middle: "(Lähi-itä)",
+    p2: "Nauti parhaasta arabialaisesta viihteestä – räätälöitynä Lähi-idän yleisölle",
+    country: "(Sweden, Norway, Denmark, Finland)",
+    one_Month: {
+      heading: "1 kuukauden paketti",
+      plan_type: "Peruspaketti",
+      plan_value: 9.99,
+      button_text: "OSTA NYT",
+      plan_connection: "NOPEA JA VAKAA",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteiden välillä",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN:n käyttöä tuetaan",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    one_Month_VPN: {
+      heading: "1 kuukausi VPN:llä",
+      plan_type: "Peruspaketti",
+      plan_value: 9.99,
+      button_text: "OSTA NYT",
+      plan_connection: "NOPEA JA VAKAA",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteiden välillä",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN:n käyttöä tuetaan",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    three_Month: {
+      heading: "3 kuukauden paketti",
+      plan_type: "Peruspaketti",
+      plan_value: 9.99,
+      button_text: "OSTA NYT",
+      plan_connection: "NOPEA JA VAKAA",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteiden välillä",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN:n käyttöä tuetaan",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    three_Month_VPN: {
+      heading: "3 kuukausi VPN:llä",
+      plan_type: "Peruspaketti",
+      plan_value: 9.99,
+      button_text: "OSTA NYT",
+      plan_connection: "NOPEA JA VAKAA",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteiden välillä",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN:n käyttöä tuetaan",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    six_Month: {
+      heading: "6 kuukauden paketti",
+      plan_type: "Vakiosopimus",
+      plan_value: 49.99,
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteiden välillä",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN:n käyttöä tuetaan",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    six_Month_VPN: {
+      heading: "6 kuukausi VPN:llä",
+      plan_type: "Vakiosopimus",
+      plan_value: 49.99,
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteiden välillä",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN:n käyttöä tuetaan",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    one_Year: {
+      heading: "1 vuoden paketti",
+      plan_value: 99.99,
+      plan_type: "Premium-paketti",
+      plan_connection: "NOPEA JA VAKAA",
+      button_text: "OSTA NYT",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteiden välillä",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN:n käyttöä tuetaan",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    one_Year_VPN: {
+      heading: "1 Year with VPN",
+      plan_value: 99.99,
+      plan_type: "Premium-paketti",
+      plan_connection: "NOPEA JA VAKAA",
+      button_text: "OSTA NYT",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteiden välillä",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN:n käyttöä tuetaan",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    plan_connection: "NOPEA JA VAKAA",
+    button_text: "OSTA NYT",
+  },
+  Pricing_Resller: {
+    heading: "",
+    highlighted_text: "Jälleenmyyjän luottopakettit",
+    description: "Valitse liiketoimintatavoitteidesi mukainen suunnitelma",
+    one_Month: {
+      heading: "60 Credits",
+      plan_value: 180,
+      button_text: "OSTA NYT",
+      plan_connection: "Uudet jälleenmyyjät",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteita",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN on käytössä",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    one_Month1: {
+      heading: "125 Credits",
+      plan_value: 275,
+      button_text: "OSTA NYT",
+      plan_connection: "Kasvava toiminta",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteita",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN on käytössä",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+
+    one_year: {
+      heading: "250 Credits",
+      plan_value: 500,
+      plan_type: "Premium Plan",
+      plan_connection: "Yritysten skaalaaminen",
+      button_text: "OSTA NYT",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteita",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN on käytössä",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    one_year1: {
+      heading: "500 Credits",
+      plan_value: 875,
+      plan_type: "Premium-paketti",
+      plan_connection: "Suuren volyymin myyjät",
+      button_text: "OSTA NYT",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteita",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN on käytössä",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    one_year2: {
+      heading: "1000 Credits",
+      plan_value: 1400,
+      plan_type: "Premium-paketti",
+      plan_connection: "Jälleenmyyjät",
+      button_text: "OSTA NYT",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteita",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN on käytössä",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    one_year3: {
+      heading: "2000 Credits",
+      plan_value: 2000,
+      plan_type: "Premium-paketti",
+      plan_connection: "Yritystason kumppanit",
+      button_text: "OSTA NYT",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteita",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN on käytössä",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    plan_connection: "NOPEA JA VAKAA",
+    button_text: "OSTA NYT",
+  },
+  pricing_section2: {
+    heading: "Valitse sinulle sopiva suunnitelma!",
+    highlighted_text: "Valitse suunnitelma",
+    description:
+      "Valitse Premium IPTV -tilaussuunnitelmasi ja avaa viihteen universumi.",
+    one_Month: {
+      heading: "1 kuukauden paketti",
+      plan_type: "Peruspaketti",
+      plan_value: 9.99,
+      button_text: "OSTA NYT",
+      plan_connection: "NOPEA JA VAKAA",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteita",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN on käytössä",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Viikoittaiset päivitykset",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    six_Month: {
+      heading: "6 kuukauden paketti",
+      plan_type: "Vakiopaketti",
+      plan_value: 49.99,
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteita",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN on käytössä",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Päivitä joka viikko",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+    one_year: {
+      heading: "1 vuoden paketti",
+      plan_value: 99.99,
+      plan_type: "Premium-paketti",
+      plan_connection: "NOPEA JA VAKAA",
+      button_text: "OSTA NYT",
+      plan_features: {
+        features_one: "+25 000 kanavaa 4K, FHD ja HD",
+        features_two: "+140 000 VOD HD, FHD",
+        features_three: "Vaihda laitteita",
+        features_four: "Ilmainen asennusapu",
+        features_five: "VPN on käytössä",
+        features_six: "TV-opas (EPG)",
+        features_seven: "Päivitä joka viikko",
+        features_eight: "Näytä kaikki laitteet",
+        features_nine: "Jäätymisenestotekniikka",
+        features_ten: "24/7 ilmainen VIP-tuki",
+        features_elevene: "Välitön aktivointi",
+      },
+    },
+
+    plan_connection: "NOPEA JA VAKAA",
+    button_text: "OSTA NYT",
+  },
+  HowItWorks_section: {
+    Title: "MITEN SE TOIMII",
+    heading: "MITEN ALOITTAA?",
+    Choose_Your_Plan_Card: {
+      title: "Valitse suunnitelmasi",
+      description:
+        "Tutustu joustaviin suunnitelmiimme, jotka on suunniteltu vastaamaan katselutarpeitasi. Valitse sinulle parhaiten sopiva vaihtoehto, olitpa satunnainen katsoja tai ahmiva katselija!",
+    },
+    Make_the_Payment_Card: {
+      title: "Suorita maksu",
+      description:
+        "Varmista tilauksesi yksinkertaisella ja turvallisella maksuprosessillamme. Voit tuntea olosi turvalliseksi tietäen, että tietosi ovat suojattuja, kun suoritat ostoksesi.",
+    },
+    Enjoy_Now_Card: {
+      title: "Nauti nyt",
+      description:
+        "Sukella suosikkisisältöösi heti! Muutamalla napsautuksella olet valmis aloittamaan suoratoiston ja nauttimaan loputtomasta viihteestä yhdellä napsautuksella.",
+    },
+  },
+  subscribe_section: {
+    heading: "Want to know about our offers first?",
+    description: "Subscribe to our Newsletter",
+  },
+  ServiceBanner_section: {
+    title: "Tuo Premium",
+    heading: "Live-TV",
+    highlighted_text: "sormenpäillesi -",
+    subheading: "Katso, nauti, milloin tahansa.",
+    description:
+      "Koe nykyaikaiselle katsojalle räätälöity ylivertainen viihde, jossa mukavuus ja laatu yhdistyvät tarjoamaan vertaansa vailla oleva suoratoistokokemus.",
+    button_text: "Aloita",
+  },
+  ChannelsSection_section: {
+    title: "Channels",
+    heading: '"Never Miss a Beat:',
+    highlighted_text: "Live TV Channels",
+    subheading: 'Easy to Navigate by Category!"',
+  },
+  MoviesSection_section: {
+    title: "URHEILU",
+    heading:
+      "Mestaruuskilpailuista kohokohtiin – kaikki urheilulajisi yhdessä paikassa!",
+  },
+  Count_section: {
+    heading:
+      "EXPRESS IPTV -kanavat - paljasta maailma täynnä viihdevaihtoehtoja!",
+    highlighted_text: "EXPRESS IPTV",
+    description:
+      "Täydellinen viihdekumppanisi. Katso mitä rakastat, milloin haluat, hämmästyttävällä laadulla. Yli 10 000 kanavan ja loputtomien viihdevaihtoehtojen ansiosta jokainen päivä tuntuu ensi-iltalta.",
+    button_text: "Aloita",
+    Live_tv_Channel: "Suorat TV-kanavat",
+    Movie_TV_Shows: "Elokuvat ja TV-ohjelmat",
+  },
+  PricingBanner_section: {
+    heading: "That Suits For You!",
+    highlighted_text: "Choose the Plan",
+    description:
+      "Select Your Premium IPTV Subscription Plan and Unlock a Universe of Entertainment.",
+    title: "DMCA Policy",
+    title2: "-- Express IPTV",
+    span1: "IPTV-jälleenmyyjäpaneeli",
+    p2: "Porttisi voittoon ja valvontaan.",
+    t1: "Kokeile ilmaiseksi –",
+    credit: "luottokorttia ei tarvita",
+    p3: "Suoratoista live-kanavia ja VOD:ta suoraan. Löydä ensiluokkaista viihdettä ilman riskiä.",
+    t2: "Löydä täydellinen ",
+    plan: "suunnitelma sinulle!",
+    p4: "Valitse Premium IPTV -tilauksesi ja pääset rajattoman viihteen maailmaan.",
+    privacy: "Tietosuojakäytäntö",
+    terms: "Ehdot",
+  },
+  AboutBanner_section: {
+    heading: "Tietoja Express IPTV:stä",
+    description: "Tulevaisuuden striimaus – tänään",
+  },
+  OurValuesCard_section: {
+    Title: "ARVOMME",
+    heading: "Express IPTV:llä meitä ohjaavat ydinarvomme",
+    Customer_Centricity_Card: {
+      title: "Asiakaskeskeisyys",
+      description:
+        "Tyytyväisyytesi on meille etusijalla. Kuuntelemme asiakkaitamme ja pyrimme jatkuvasti parantamaan palveluitamme palautteesi perusteella. Olemme aina täällä varmistaaksemme, että saat parhaan mahdollisen kokemuksen.",
+    },
+    Quality_Reliability_Card: {
+      title: "Laatu ja luotettavuus",
+      description:
+        "Olemme sitoutuneet tarjoamaan korkealaatuisen suoratoistokokemuksen ja varmistamaan, että voit nauttia suosikkisisällöstäsi keskeytyksettä. Olemme ylpeitä luotettavuudestamme ja palvelustamme, johon voit luottaa.",
+    },
+    Innovation_Card: {
+      title: "Innovaatio",
+      description:
+        "Viihdeala kehittyy jatkuvasti, ja niin kehitymme mekin. Hyödynnämme uusimpia teknologioita parantaaksemme katselukokemustasi ja tarjotaksemme sinulle edistyneimmän saatavilla olevan IPTV-palvelun.",
+    },
+  },
+  ContactBanner_section: {
+    Title: "Contact us",
+    heading: "Ready to help your company",
+  },
+  Form_section: {
+    title: "Send me a message",
+    First_Name: "First Name",
+    Last_Name: "Last Name",
+    Email: "Enter Email",
+    Message: "Message...",
+    button_text: "Submit",
+  },
+  ContectCard_section: {
+    Mobile_Contect_Card: {
+      title: "Mobile Number",
+    },
+    Email_Contect_Card: {
+      title: "Email Address",
+    },
+    Address_Contect_Card: {
+      title: "Address",
+    },
+  },
+  FAQBanner_section: {
+    Title: "Miten voimme auttaa?",
+    heading: "Usein kysytyt kysymykset",
+  },
+  Terms_and_Conditions: {
+    heading: "Terms and Conditions",
+    description:
+      "These Terms govern your access to, and usage of all content, Product, and Services available at IPTV.STOTE website (the “Service”) operated by IPTV (“us”, “we”, or “our”). Your access to our services is subject to your acceptance, without modification, of all of the terms and conditions contained herein and all other operating rules and policies published and that may be published from time to time by us. Please read the Agreement carefully before accessing or using our Services. By accessing or using any part of our Services, you agree to be bound by these Terms. If you do not agree to any part of the terms of the Agreement, then you may not access or use our Services.",
+    button_text: "Accept",
+    other_description: [
+      {
+        heading: "1. Acceptance of Terms",
+        description:
+          "By accessing and using the services provided by Express IPTV, you agree to comply with these Terms and Conditions. If you do not agree with these terms, please do not use our website or services.",
+      },
+      {
+        heading: "2. Account Registration",
+        description:
+          "To access certain features of our services, you may need to register for an account. By registering, you agree to provide accurate and complete information. You are responsible for maintaining the confidentiality of your account details, including your username and password, and for all activities that occur under your account.",
+      },
+      {
+        heading: "3. Subscription and Billing",
+        description: [
+          "Pricing: Our subscription plans are detailed on the website, and by subscribing to our service, you agree to pay the stated fees.",
+          "Payment: All payments for our services must be made in accordance with the payment methods provided on the website.",
+          "Refund Policy: Subscriptions are non-refundable unless stated otherwise. Refunds are subject to our discretion and the specific circumstances of your request.",
+          "Automatic Renewal: Your subscription will automatically renew unless you cancel it before the next billing cycle. You can cancel your subscription through your account settings.",
+        ],
+      },
+      {
+        heading: "4. User Conduct",
+        description: [
+          "When using our services, you agree to not engage in any of the following:",
+          "Violating any laws or regulations.",
+          "Distributing harmful content, including viruses or malware.",
+          "Attempting to disrupt or damage the functionality of the services.",
+          "Accessing content that is restricted or intended for other users.",
+        ],
+      },
+      {
+        heading: "5. Intellectual Property",
+        description:
+          "All content provided by Express IPTV, including logos, images, videos, software, and other materials, is protected by intellectual property laws and remains the property of Express IPTV or its licensors. You may not use, copy, or modify any of our content without our express permission.",
+      },
+      {
+        heading: "6. Privacy",
+        description:
+          "Your use of our services is also governed by our Privacy Policy, which can be found [here]. By using our services, you consent to the collection and use of your personal information as described in the Privacy Policy.",
+      },
+      {
+        heading: "7. Termination",
+        description:
+          "We reserve the right to suspend or terminate your account at any time for violation of these Terms and Conditions, non-payment, or any other reason we deem necessary. Upon termination, all access to our services will be immediately revoked.",
+      },
+      {
+        heading: "8. Limitation of Liability",
+        description:
+          "To the maximum extent permitted by law, Express IPTV is not liable for any indirect, incidental, special, or consequential damages resulting from your use of our services. Our total liability shall not exceed the total amount paid by you for the subscription during the six months preceding the event that caused the damage.",
+      },
+      {
+        heading: "9. Indemnification",
+        description:
+          "You agree to indemnify and hold harmless Express IPTV, its affiliates, employees, and agents from any claims, losses, damages, and expenses arising out of your violation of these Terms and Conditions or your use of our services.",
+      },
+      {
+        heading: "10. Amendments",
+        description:
+          'We reserve the right to update or modify these Terms and Conditions at any time. Any changes will be posted on this page, and the "Last Updated" date will be revised accordingly. Your continued use of the services after such changes will constitute acceptance of the updated terms.',
+      },
+      {
+        heading: "11. Governing Law",
+        description:
+          "These Terms and Conditions are governed by the laws of the jurisdiction in which Express IPTV operates, without regard to its conflict of law principles. Any disputes related to these terms shall be resolved in the appropriate courts in that jurisdiction.",
+      },
+      {
+        heading: "12. Dispute Resolution",
+        description:
+          "In the event of any dispute, the parties agree to first attempt to resolve the issue through mediation or other amicable means. If the dispute cannot be resolved, it will be settled in the courts of the jurisdiction specified above.",
+      },
+      {
+        heading: "13. Contact Information",
+        description:
+          "If you have any questions or concerns regarding these Terms and Conditions, please contact us:\nEmail: expresstv@hushmail.me",
+      },
+    ],
+  },
+  Refund_and_Returns_Policy: {
+    heading: "Refund and Returns Policy",
+    span10: "Refund and Returns Policy",
+    p22: "At Express IPTV, we strive to provide excellent services and a seamless experience for our customers. However, if you're not completely satisfied with our service, we are here to assist you according to our Refund and Returns Policy.",
+    description:
+      "Please read the following carefully, then send us a refund request by creating a ticket in the support section.",
+    other_description: [
+      {
+        heading: "Refund Eligibility",
+
+        description: [
+          {
+            text: " Technical Issues: If you experience significant issues with our IPTV service, such as service downtime or issues related to streaming, we will investigate and issue a refund based on the nature and severity of the issue.",
+          },
+          {
+            text: "Non-Usage: If you haven't used the service after purchasing the subscription and request a refund within the first 24 hours of activation, you may be eligible for a refund.",
+          },
+          {
+            text: "Service Cancellation: If you wish to cancel your subscription, please do so before your next billing cycle. Refunds are not provided for partial usage during a billing cycle unless specified otherwise.",
+          },
+        ],
+      },
+      {
+        heading: "2. Non-Refundable Situations",
+        description: [
+          {
+            text: "Change of Mind: Once a subscription has been activated and content has been accessed, we do not offer refunds for simple change of mind.",
+          },
+          {
+            text: "Late Cancellations: If you cancel your subscription after the billing date has passed, the payment for that period is non-refundable.",
+          },
+          {
+            text: "Third-Party Payment Issues: If payments are made through third-party payment processors or platforms, refunds will need to be processed through those platforms.",
+          },
+        ],
+      },
+      {
+        heading: "3. How to Request a Refund",
+        description: [
+          {
+            text: "Contact Us: Reach out to our customer support team at support@expressiptv.com within 7 days of your subscription to explain the issue you're facing.",
+          },
+          {
+            text: "Provide Necessary Information: Include your account details, subscription information, and a description of the problem or reason for your refund request.",
+          },
+          {
+            text: "Resolution Process: Our support team will evaluate your request and inform you of the refund decision. If your request meets our refund criteria, we will process your refund promptly.",
+          },
+        ],
+      },
+      {
+        heading: "4. Return of Equipment (If Applicable)",
+        description: [
+          {
+            text: "Return Period: Equipment must be returned within 30 days of delivery for a full refund. After this period, returns will not be accepted.",
+          },
+          {
+            text: "Condition: The equipment must be returned in its original condition, including all accessories, cables, and packaging.",
+          },
+          {
+            text: "Return Process: To initiate a return, contact our support team, and we will provide instructions on how to send the equipment back.",
+          },
+        ],
+      },
+      {
+        heading: "5. Processing Time",
+        description: [
+          {
+            text: "Once your refund request is approved, we will process it within 7-10 business days. Refunds will be issued via the original payment method used at the time of purchase.",
+          },
+        ],
+      },
+      {
+        heading: "6. Changes to This Policy",
+        description: [
+          {
+            text: 'We reserve the right to modify or update this Refund and Returns Policy at any time. Any changes will be posted on this page with an updated "Last Updated" date. Please review this policy periodically for any updates.',
+          },
+        ],
+      },
+      {
+        heading: "7. Contact Us",
+        description: [
+          {
+            text: "If you have any questions or concerns about our Refund and Returns Policy, feel free to contact us:\nEmail: expresstv@hushmail.me",
+          },
+        ],
+      },
+    ],
+  },
+  Privacy_Policy: {
+    heading: "Tietosuojakäytäntö",
+    description:
+      "Express IPTV is committed to protecting your privacy. This Privacy Policy outlines how we collect, use, and safeguard your personal information when you visit our website or use our IPTV services. By using our services, you agree to the collection and use of information in accordance with this policy.",
+    other_description: [
+      {
+        heading: "1. Information We Collect",
+        description: `We collect the following types of information:
+
+Personal Information: When you register for our services or subscribe to our offerings, we collect personal information such as your name, email address, phone number, billing address, and payment details.
+
+Usage Data: We collect data on how you use our services, including but not limited to browsing patterns, IP address, device information, and interaction with our website and content.
+
+Cookies and Tracking Technologies: We use cookies and similar tracking technologies to track your activity on our website. This helps us improve user experience, analyze trends, and understand your preferences.`,
+      },
+      {
+        heading: "2. How We Use Your Information",
+        description: `We use the information we collect for the following purposes:
+
+Providing Services: To deliver and maintain our IPTV services, process payments, and manage subscriptions.
+
+Communication: To send you updates, promotional content, and information related to your account or service usage.
+
+Improving User Experience: To personalize content and enhance your experience on our website and through our services.
+
+Security and Fraud Prevention: To detect and prevent unauthorized access, fraud, or misuse of our services.
+
+Legal Compliance: To comply with applicable laws, regulations, or legal obligations.`,
+      },
+      {
+        heading: "3. Data Sharing and Disclosure",
+        description: `We do not sell, rent, or share your personal information with third parties for their marketing purposes. However, we may share your information in the following circumstances:
+
+Service Providers: We may share your information with trusted third-party service providers who assist in running our business, such as payment processors, customer support, or hosting services. These third parties are obligated to protect your information and use it only for the purpose of providing their services.
+
+Legal Requirements: We may disclose your information if required to do so by law or in response to a valid request by public authorities (e.g., a court or government agency).
+
+Business Transfers: In the event of a merger, acquisition, or sale of assets, your personal information may be transferred to the new owner, subject to this privacy policy.`,
+      },
+      {
+        heading: "4. Data Security",
+        description: `We employ reasonable and industry-standard security measures to protect your personal data from unauthorized access, disclosure, alteration, or destruction. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security.`,
+      },
+      {
+        heading: "5. Your Data Protection Rights",
+        description: `Depending on your jurisdiction, you may have the following rights regarding your personal information:
+
+Access: You have the right to request access to the personal data we hold about you.
+
+Correction: You can request correction of inaccurate or incomplete data.
+
+Deletion: You can request the deletion of your personal data, subject to certain exceptions.
+
+Opt-out of Marketing: You may opt-out of receiving marketing communications from us by following the instructions in our emails or by contacting us directly.
+
+Data Portability: In certain circumstances, you may request a copy of your data in a portable format.
+
+If you wish to exercise any of these rights, please contact us at the contact details provided at the end of this policy.`,
+      },
+      {
+        heading: "6. Cookies and Tracking Technologies",
+        description: `We use cookies to enhance your experience while using our website. Cookies are small text files stored on your device that help us recognize you and personalize content. You can choose to disable cookies through your browser settings, but this may impact your ability to use certain features of our website.
+        For more information on how we use cookies, please refer to our Cookie Policy.`,
+      },
+      {
+        heading: "7. Links to Third-Party Websites",
+        description: `Our website may contain links to third-party websites or services. These sites are not under our control and are not covered by this Privacy Policy. We encourage you to review the privacy policies of these third-party websites before providing them with any personal information.`,
+      },
+      {
+        heading: "8. Changes to This Privacy Policy",
+        description: `We reserve the right to update or modify this Privacy Policy at any time. Any changes will be reflected on this page with an updated "Last Updated" date. We encourage you to review this policy periodically to stay informed about how we are protecting your information.`,
+      },
+      {
+        heading: "9. Contact Us",
+        description: `If you have any questions or concerns about this Privacy Policy or our data practices, please contact us:
+
+        Email: expresstv@hushmail.me`,
+      },
+    ],
+  },
+  Privacy_Content: {
+    p1: "Express IPTV on sitoutunut suojaamaan yksityisyyttäsi. Tässä tietosuojakäytännössä kuvataan, kuinka keräämme, käytämme ja suojaamme henkilötietojasi, kun vierailet verkkosivustollamme tai käytät IPTV-palveluitamme. Käyttämällä palveluitamme hyväksyt tietojen keräämisen ja käytön tämän käytännön mukaisesti.",
+    h3: "1. Keräämämme tiedot",
+    p2: "Keräämme seuraavan tyyppisiä tietoja:",
+    str: "Henkilötiedot:",
+    p3: "Kun rekisteröidyt palveluihimme tai tilaat tarjontaamme, keräämme henkilötietoja, kuten nimesi, sähköpostiosoitteesi, puhelinnumerosi, laskutusosoitteesi ja maksutietosi.",
+    str1: "Käyttötiedot:",
+    p4: "Keräämme tietoja siitä, kuinka käytät palveluitamme, mukaan lukien mutta ei rajoittuen selaustavat, IP-osoite, laitetiedot ja vuorovaikutus verkkosivustomme ja sisältömme kanssa.",
+    str2: "Evästeet ja seurantatekniikat:",
+    p5: "Käytämme evästeitä ja vastaavia seurantatekniikoita seurataksemme toimintaasi verkkosivustollamme. Tämä auttaa meitä parantamaan käyttökokemusta, analysoimaan trendejä ja ymmärtämään mieltymyksiäsi.",
+    h32: "2. Kuinka käytämme tietojasi",
+    p6: "Käytämme keräämiämme tietoja seuraaviin tarkoituksiin:",
+    str3: "Palvelujen tarjoaminen:",
+    p7: "IPTV-palveluidemme toimittaminen ja ylläpito, maksujen käsittely ja tilausten hallinta.",
+    str4: "Viestintä:",
+    p8: "Lähettää sinulle päivityksiä, mainossisältöä ja tiliisi tai palvelun käyttöön liittyviä tietoja.",
+    str5: "Käyttäjäkokemuksen parantaminen:",
+    p9: "Mukauttaa sisältöä ja parantaa käyttökokemustasi verkkosivustollamme ja palveluidemme kautta.",
+    str6: "Turvallisuus ja petostentorjunta:",
+    p10: "Palveluidemme luvattoman käytön, petosten tai väärinkäytön havaitsemiseksi ja estämiseksi.",
+    str7: "Lakivaatimustenmukaisuus:",
+    p11: "Sovellettavien lakien, määräysten tai lakisääteisten velvoitteiden noudattaminen.",
+    h34: "3. Tietojen jakaminen ja paljastaminen",
+    p12: "Emme myy, vuokraa tai jaa henkilötietojasi kolmansille osapuolille heidän markkinointitarkoituksiinsa. Saatamme kuitenkin jakaa tietosi seuraavissa tilanteissa:",
+    str8: "Palveluntarjoajat:",
+    p13: "Saatamme jakaa tietosi luotettujen kolmannen osapuolen palveluntarjoajien kanssa, jotka auttavat liiketoimintaamme, kuten maksujen käsittelijöitä, asiakastukea tai hosting-palveluita. Nämä kolmannet osapuolet ovat velvollisia suojaamaan tietojasi ja käyttämään niitä vain palveluidensa tarjoamiseen.",
+    str9: "Oikeudelliset vaatimukset:",
+    p14: "Saatamme luovuttaa tietojasi, jos laki niin vaatii tai vastauksena viranomaisten (esim. tuomioistuimen tai valtion viraston) pätevään pyyntöön.",
+    str10: "Liiketoiminnan siirrot:",
+    p15: "Sulautumisen, hankinnan tai omaisuuden myynnin yhteydessä henkilötietosi voidaan siirtää uudelle omistajalle tämän tietosuojakäytännön mukaisesti.",
+    h35: "4. Tietoturva",
+    p16: "Käytämme kohtuullisia ja alan standardeja turvatoimenpiteitä henkilötietojesi suojaamiseksi luvattomalta käytöltä, paljastamiselta, muuttamiselta tai tuhoutumiselta. Mikään Internetin tai sähköisen tallennustavan lähetystapa ei kuitenkaan ole 100 % turvallinen, emmekä voi taata täydellistä turvallisuutta.",
+    h36: "5. Tietosuojaoikeutesi",
+    p17: "Lainkäyttöalueestasi riippuen sinulla voi olla seuraavat henkilötietoihisi liittyvät oikeudet:",
+    str11: "Pääsy:",
+    p18: "Sinulla on oikeus pyytää pääsyä hallussamme oleviin henkilötietoihin.",
+    str12: "Oikaisu:",
+    p19: "Voit pyytää virheellisten tai puutteellisten tietojen korjaamista.",
+    str13: "Poistaminen:",
+    p20: "Voit pyytää henkilötietojesi poistamista tietyin poikkeuksin.",
+    str14: "Markkinoinnin kieltäminen:",
+    p21: "Voit kieltäytyä vastaanottamasta meiltä markkinointiviestejä noudattamalla sähköpostissamme olevia ohjeita tai ottamalla meihin suoraan yhteyttä.",
+    str15: "Tietojen siirrettävyys:",
+    p22: "Tietyissä olosuhteissa voit pyytää kopion tiedoistasi kannettavassa muodossa.",
+    p23: "Jos haluat käyttää jotakin näistä oikeuksista, ota meihin yhteyttä tämän vakuutuksen lopussa olevilla yhteystiedoilla.",
+    h37: "6. Evästeet ja seurantatekniikat",
+    p24: "Käytämme evästeitä parantaaksemme käyttökokemustasi verkkosivustollamme. Evästeet ovat laitteellesi tallennettuja pieniä tekstitiedostoja, jotka auttavat meitä tunnistamaan sinut ja mukauttamaan sisältöä. Voit halutessasi poistaa evästeet käytöstä selaimesi asetuksista, mutta tämä voi vaikuttaa mahdollisuuteesi käyttää tiettyjä verkkosivustomme ominaisuuksia.",
+    p25: "Lisätietoja evästeiden käytöstä saat evästekäytännöstämme.",
+    h38: "7. Linkit kolmansien osapuolien verkkosivustoille",
+    p26: "Sivustomme voi sisältää linkkejä kolmansien osapuolien verkkosivustoille tai palveluihin. Nämä sivustot eivät ole meidän hallinnassamme, eivätkä ne kuulu tämän tietosuojakäytännön piiriin. Suosittelemme sinua tutustumaan näiden kolmansien osapuolien verkkosivustojen tietosuojakäytäntöihin ennen kuin annat niille mitään henkilökohtaisia ​​tietoja.",
+    h39: "8. Muutokset tähän tietosuojakäytäntöön",
+    p27: 'Pidätämme oikeuden päivittää tai muuttaa tätä tietosuojakäytäntöä milloin tahansa. Kaikki muutokset näkyvät tällä sivulla päivitetyllä "Viimeksi päivitetty" -päivämäärällä. Kehotamme sinua tarkistamaan tämän käytännön säännöllisesti pysyäksesi ajan tasalla siitä, kuinka suojaamme tietojasi.',
+    h40: "9. Ota yhteyttä",
+    p28: "Jos sinulla on kysyttävää tai huolenaiheita tästä tietosuojakäytännöstä tai tietosuojakäytännöistämme, ota meihin yhteyttä:",
+    str16: "Sähköposti:",
+    p29: "expresstv@hushmail.me",
+  },
+  Troubleshooting: {
+    p1: "Express IPTV -vianetsintäopas",
+    p2: "IPTV-palvelusi asentaminen Express IPTV:llä on nopeaa ja helppoa! Aloita noudattamalla näitä yksinkertaisia ​​ohjeita",
+    heading: "Website Troubleshooting Steps",
+    description:
+      "Are you having trouble with a particular website? Trouble with every website? Here's a list of general purpose troubleshooting steps that you can take which might help. They're not going to fix every problem, but they're some good 'First steps' to take and they might just fix your problem straight away.",
+    Steps: [
+      {
+        title: "Refresh the page",
+        description:
+          "Sometimes when you load a webpage, things just don't work quite right - for too many reasons to list, a page might just simply not load correctly the first time. So the first thing to try is simply reloading the page. Forcing a complete refresh of a page tells your web browser to try downloading and displaying everything again.",
+      },
+      {
+        title: "Refresh the page",
+        description:
+          "Sometimes when you load a webpage, things just don't work quite right - for too many reasons to list, a page might just simply not load correctly the first time. So the first thing to try is simply reloading the page. Forcing a complete refresh of a page tells your web browser to try downloading and displaying everything again.",
+      },
+      {
+        title: "Refresh the page",
+        description:
+          "Sometimes when you load a webpage, things just don't work quite right - for too many reasons to list, a page might just simply not load correctly the first time. So the first thing to try is simply reloading the page. Forcing a complete refresh of a page tells your web browser to try downloading and displaying everything again.",
+      },
+      {
+        title: "Refresh the page",
+        description:
+          "Sometimes when you load a webpage, things just don't work quite right - for too many reasons to list, a page might just simply not load correctly the first time. So the first thing to try is simply reloading the page. Forcing a complete refresh of a page tells your web browser to try downloading and displaying everything again.",
+      },
+    ],
+  },
+  Get_in_touch: {
+    heading: "Get In Touch",
+    description:
+      "Please read the following carefully, then send us a refund request by creating a ticket in the support section.",
+    other_description: [
+      {
+        heading: "Requests for Refund must be clear and acceptable:",
+        description: [
+          {
+            text: "  Before you buy, be sure to request a trial account. We have set up a trial account so that you can test it, and if you are not satisfied, do not buy a long-term service.",
+          },
+          {
+            text: "If your internet speed is slow, you will not be able to see and use our IPTV services and then request a refund.",
+          },
+          {
+            text: "The big IPTV team is always ready to respond 24 hours a day, seven days a week, and if you can’t set up the IPTV service on the devices you have for any reason, it won’t include refunds. Please see and learn the necessary tutorials on setting up IPTV.",
+          },
+          {
+            text: "If you made a mistake in choosing the service and completed the payment, you can find a ticket in the support section entitled “Create then our support team will review it, accept it, and do the refund. Payment error: this means that you want to buy a 3-month service but have mistakenly chosen and paid for a year or less.",
+          },
+          {
+            text: "If your account expires 7 days later, the refund request will not be accepted.",
+          },
+        ],
+      },
+    ],
+  },
+  Terms_Content: {
+    h1: "Ehdot",
+    p1: "Tervetuloa Express IPTV:hen! Nämä käyttöehdot määrittelevät säännöt ja määräykset verkkosivustomme ja palveluidemme käytöstä. Käyttämällä palvelujamme sitoudut noudattamaan näitä ehtoja. Jos olet eri mieltä näiden ehtojen jostain osasta, pidättäydy käyttämästä palveluitamme.",
+    h2: "1. Ehtojen hyväksyminen",
+    p2: "Käyttämällä ja käyttämällä Express IPTV:n tarjoamia palveluita sitoudut noudattamaan näitä ehtoja. Jos et hyväksy näitä ehtoja, älä käytä verkkosivustoamme tai palveluitamme.",
+    h3: "2. Tilin rekisteröinti",
+    p3: "Jotta voit käyttää tiettyjä palveluidemme ominaisuuksia, saatat joutua rekisteröimään tilin. Rekisteröitymällä sitoudut antamaan oikeat ja täydelliset tiedot. Olet vastuussa tilitietojesi, mukaan lukien käyttäjätunnuksesi ja salasanasi, luottamuksellisuuden säilyttämisestä ja kaikesta tililläsi tapahtuvasta toiminnasta.",
+    h4: "3. Tilaus ja laskutus",
+    str1: "Hinnoittelu:",
+    li1: "Tilaussuunnitelmamme on kuvattu verkkosivustolla, ja tilaamalla palvelumme sitoudut maksamaan ilmoitetut maksut.",
+    str2: "Maksaminen:",
+    li2: "Kaikki maksut palveluistamme tulee suorittaa verkkosivustolla olevien maksutapojen mukaisesti.",
+    str3: "Hyvityskäytäntö:",
+    li3: "Tilauksia ei palauteta, ellei toisin mainita. Hyvitykset ovat harkintamme ja pyyntösi erityisten olosuhteiden alaisia.",
+    str4: "Automaattinen uusiminen:",
+    li4: "Tilauksesi uusitaan automaattisesti, ellet peruuta sitä ennen seuraavaa laskutusjaksoa. Voit peruuttaa tilauksesi tilisi asetuksista.",
+    h5: "4. Käyttäjien käyttäytyminen",
+    p4: "Kun käytät palveluitamme, sitoudut olemaan tekemättä mitään seuraavista:",
+    li5: "Lakien tai määräysten rikkominen.",
+    li6: "Haitallisen sisällön, kuten virusten tai haittaohjelmien, levittäminen.",
+    li7: "Yritetään häiritä tai vahingoittaa palveluiden toimivuutta.",
+    li8: "Pääsy sisältöön, joka on rajoitettu tai tarkoitettu muille käyttäjille.",
+    h6: "5. Immateriaalioikeudet",
+    p5: "Kaikki Express IPTV:n tarjoama sisältö, mukaan lukien logot, kuvat, videot, ohjelmistot ja muu materiaali, on suojattu immateriaalioikeuksilla, ja se on Express IPTV:n tai sen lisenssinantajien omaisuutta. Et saa käyttää, kopioida tai muokata mitään sisältöämme ilman nimenomaista lupaamme.",
+    h7: "6. Yksityisyys",
+    p6: "Palvelujemme käyttöäsi säätelee myös tietosuojakäytäntömme, joka löytyy [täältä]. Käyttämällä palveluitamme hyväksyt henkilötietojesi keräämisen ja käytön tietosuojakäytännössä kuvatulla tavalla.",
+    h8: "7. Irtisanominen",
+    p7: "Pidätämme oikeuden jäädyttää tai lopettaa tilisi milloin tahansa näiden käyttöehtojen rikkomisen, maksamatta jättämisen tai muun tarpeelliseksi katsomamme syyn vuoksi. Irtisanomisen jälkeen kaikki pääsy palveluihimme peruutetaan välittömästi.",
+    h9: "8. Vastuun rajoitus",
+    p8: "Lain sallimissa rajoissa Express IPTV ei ole vastuussa mistään välillisistä, satunnaisista, erityisistä tai välillisistä vahingoista, jotka johtuvat palveluidemme käytöstä. Kokonaisvastuumme ei ylitä vahingon aiheuttanutta tapahtumaa edeltäneiden kuuden kuukauden aikana tilauksesta maksamaasi kokonaissummaa.",
+    h10: "9. Korvaus",
+    p9: "Sitoudut korvaamaan Express IPTV:n, sen tytäryhtiöt, työntekijät ja edustajat kaikista vaateista, tappioista, vahingoista ja kuluista, jotka johtuvat näiden käyttöehtojen rikkomisesta tai palveluidemme käytöstä, ja pitämään ne vaarattomina.",
+    h11: "10. Muutokset",
+    p10: 'Pidätämme oikeuden päivittää tai muuttaa näitä käyttöehtoja milloin tahansa. Kaikki muutokset julkaistaan tällä sivulla, ja "Viimeksi päivitetty" -päivämäärää tarkistetaan vastaavasti. Palveluiden jatkuva käyttö tällaisten muutosten jälkeen merkitsee päivitettyjen ehtojen hyväksymistä.',
+    h12: "11. Sovellettava laki",
+    p11: "Näitä ehtoja säätelevät sen lainkäyttöalueen lait, jolla Express IPTV toimii, ottamatta huomioon sen lainvalintaperiaatteita. Kaikki näihin ehtoihin liittyvät riidat ratkaistaan asianomaisissa tuomioistuimissa kyseisellä lainkäyttöalueella.",
+    h13: "12. Riitojen ratkaisu",
+    p12: "Erimielisyyksien sattuessa osapuolet sopivat yrittävänsä ensin ratkaista ongelma sovittelulla tai muilla sovintokeinoilla. Jos erimielisyyttä ei voida ratkaista, se ratkaistaan edellä mainitun lainkäyttöalueen tuomioistuimissa.",
+    h14: "13. Yhteystiedot",
+    p13: "Jos sinulla on kysymyksiä tai huolenaiheita koskien näitä ehtoja, ota meihin yhteyttä:",
+    email: "Sähköposti:",
+    a1: "expresstv@hushmail.me",
+  },
+  Simple_Steps: {
+    h1: "Noudata näitä yksinkertaisia ​​ohjeita aloittaaksesi ilmaisen Express TV:n kokeilujakson",
+    h2: "Vaihe 1: Luo ilmainen kokeilutili",
+    li1: "Siirry",
+    a1: "Free Trial -sivulle",
+    li2: "Napsauta",
+    span1: "Tilaa nyt",
+    li3: "Mene",
+    span2: "kassalle",
+    li4: "Anna laskutustiedot ja luo Express TV -salasanasid",
+    li5: "Valitse mikä tahansa maksutapa (kokeilu on 100 % ilmainen)",
+    li6: "Napsauta",
+    span3: "Valmis tilaus",
+    p1: "✅ Selkeä! IPTV-kokeilujaksosi on nyt aktiivinen.",
+    li7: "Tarkista sähköpostistasi (ja roskapostikansiostasi) kirjautumistiedot.",
+    h4: "Vaihe 2: Nauti täydestä käyttöoikeudesta 24 tunnin ajan",
+    li8: " Kirjaudu tilillesi",
+    li9: " 24 tunnin IPTV-kokeiluaktivointisi on automaattinen",
+    li10: " Striimaa kaikilla tuetuilla laitteilla",
+    li11: " Pääsy suoraa TV-lähetystä, elokuvia, sarjoja, urheilua ja paljon muuta",
+    li12: " Huomautus: Kokeilukäyttö on vain uusille käyttäjille ja on voimassa vain rajoitetun ajan",
+    h5: "Miksi valita Express TV:n ilmainen kokeiluversio?",
+    li13: "Välitön aktivointi – aloita katselu heti",
+    li14: " Täysi käyttöoikeus – joitakin ominaisuuksia maksaville käyttäjille",
+    li15: " Testaa live-tapahtumien aikana",
+    li16: " Globaali sisältö – kanavia kaikilta alueilta",
+    li17: " Ei rajoituksia tai piilotettuja rajoja",
+    h6: "Yhteensopiva kaikkien laitteiden kanssa",
+    li18: "Amazon Fire Stick & Fire TV Cube",
+    li19: " Smart TV (Samsung, LG, Sony)",
+    li20: " Android TV -laatikot (Nvidia Shield, T95, Beelink jne.)",
+    li21: " Apple-laitteet (iPhone, iPad, Apple TV, Mac)",
+    li22: " Android-puhelimet ja tabletit",
+    li23: " MAG-yksiköt (MAG 322, 425A, 424 jne.)",
+    li24: " Windows-laitteet",
+    li25: " Roku, Chromecast, TV, Formuler, Dreamlink, jopa minä",
+    h7: "Toimii kaikkien suosittujen IPTV-sovellusten kanssa",
+    li26: " IPTV Smarters Pro",
+    li27: " Tivimate IPTV-soitin",
+    li28: " Smart IPTV (SIPTV)",
+    li29: " XCIPTV-soitin",
+    li30: " Flix IPTV",
+    li31: " Duplex IPTV",
+    li32: " GSE Smart IPTV",
+    li33: " Täydellinen pelaaja",
+    li34: " Mitä?",
+    li35: " Lazy IPTV, Televizo, ProgTV, OTT Navigator ja paljon muuta",
+    a2: "Näytä tilaussuunnitelmat",
+  },
+  Blog_Section: {
+    h1: "Blogit",
+    h2: "Lisää uusimmista blogeistamme",
+  },
+  Client_Section: {
+    h1: "Suoratoisto",
+    h2: "Elokuvat, urheilu ja lastenohjelmat",
+    name1: "Suoratoista elokuvia ja sarjoja milloin haluat",
+    testi1:
+      "Nauti rajattomasta viihteestä nauttimalla välittömästä pääsystä suosikkielokuviisi ja -sarjoihisi. Katso silloin, kun se sinulle parhaiten sopii – ei rajoituksia, ei keskeytyksiä. On-demand IPTV-palvelumme tuo viihteen voiman sormiesi ulottuville.",
+    name2: "Kaikki suosikkitelevisiosi ja urheilulajisi yhdessä paikassa",
+    testi2:
+      "Nauti korkealaatuisesta IPTV:stä huippuluokan urheilulla ja viihteellä ympäri maailmaa. Suoratoista yli 100 000 elokuvaa ja sarjaa upealla FHD/4K-laadulla ruotsinkielisillä tekstityksillä. Koe saumaton pääsy maailmanlaajuiseen sisältöön – kaikki yhdellä tehokkaalla IPTV-alustalla.",
+    name3: "Viihdettä kaiken ikäisille lapsille",
+    testi3:
+      "IPTV-palvelumme tarjoaa turvallisen ja hauskan suoratoistokokemuksen, joka on erityisesti suunniteltu lapsille. Ajattomista Disney-klassikoista uusimpiin lapsiystävällisiin esityksiin löytyy jotakin kaiken ikäisille. Pidä pienet hauskaa hauskalla, opettavaisella ja ikään sopivalla sisällöllä - kaikki yhdessä paikassa.",
+  },
+  Dmca_Content: {
+    p1: "Tervetuloa Express IPTV:hen. Kunnioitamme muiden immateriaalioikeuksia, aivan kuten odotamme muiden kunnioittavan omiamme. DMCA-lain (Digital Millennium Copyright Act) osaston 17, Yhdysvaltain lakien pykälän 512(c) mukaisesti tekijänoikeuksien omistaja tai hänen valtuuttamansa edustaja voi lähettää meille poistopyynnön DMCA-agenttimme kautta alla kuvatulla tavalla.",
+    p2: 'Internet-palveluntarjoajana Express IPTV voi vaatia suojaa DMCA:n "safe harbor" -säännösten mukaisesti. Voit lähettää kelvollisen poistoilmoituksen hyvässä uskossa lisäämällä seuraavat tiedot:',
+    h1: "1. Poistoilmoituksen vaatimukset",
+    li1: "Allekirjoitus: Tekijänoikeuden haltijan tai valtuutetun edustajan fyysinen tai sähköinen allekirjoitus.",
+    li2: "Teoksen tunniste: Kuvaus tekijänoikeuksilla suojatusta teoksesta, jota väitetään loukattu.",
+    li3: "Loukkaava materiaali: Poistettavan loukkaavan materiaalin tarkka tunniste, mukaan lukien URL-osoite, jossa se esiintyy.",
+    li4: "Yhteystiedot: Nimesi, osoitteesi, sähköpostiosoitteesi ja puhelinnumerosi (faksi, jos saatavilla).",
+    li5: "Hyvässä uskossa oleva lausunto: Vakuutus siitä, että uskot vilpittömästi, että käyttö on luvatonta tekijänoikeuden omistajan, edustajan tai lain toimesta.",
+    li6: "Tarkkuuslausunto: Vahvistus väärästä valasta rangaistuksen uhalla siitä, että ilmoituksesi on oikea ja että sinulla on oikeus toimia tekijänoikeuksien omistajan puolesta.",
+    p3: "Huomautus: Alle 17 U.S.C. §512(f) on olemassa siviilioikeudellisia seuraamuksia, jos tietoisesti esittää vääriä vaatimuksia, mukaan lukien mahdollinen vahingonkorvausvastuu ja asianajajan palkkiot.",
+    p4: "Lähetä kaikki poistopyynnöt Yhteystiedot-sivumme kautta. Sähköpostin toimitus on erittäin suositeltavaa nopean käsittelyn vuoksi.",
+    p5: "Huomaa, että voimme jakaa ilmoituksesi tiedot, mukaan lukien henkilöllisyytesi, väitetyn loukkaajan kanssa. Lähettämällä DMCA-ilmoituksen hyväksyt tämän ilmoituksen.",
+    h4: "2. Vastailmoitus – Poistetun materiaalin palauttaminen",
+    p6: "Jos sait poistoilmoituksen ja uskot, että poistaminen oli virhe tai virheellinen tunnistaminen, voit lähettää vastailmoituksen alle 17 U.S.C. §512(g)(3). Vastailmoituksesi tulee sisältää:",
+    li7: "Allekirjoitus: Fyysinen tai sähköinen allekirjoituksesi.",
+    li8: "Materiaalin kuvaus: Tiedot poistetusta sisällöstä ja sen alkuperäisestä sijainnista (URL-osoite).",
+    li9: "Hyvässä uskossa oleva lausunto: Väärän valaan rangaistuksen alaisena vahvistus siitä, että poisto oli virheellinen tai tunnistettu väärin.",
+    li10: "Yhteystiedot ja lainkäyttöalueen suostumus: Nimesi, osoitteesi, puhelinnumerosi, suostumuksesi Yhdysvaltain liittovaltion tuomioistuimen toimivaltaan (tai mihin tahansa asiaankuuluvalle lainkäyttöalueelle, jos se on Yhdysvaltojen ulkopuolella) ja palvelun hyväksyminen alkuperäiseltä valittajalta.",
+    p7: "Lähetystapa: Lähetä vastailmoituksesi Yhteystiedot-sivumme kautta. Sähköposti on parempi ratkaisun nopeuttamiseksi.",
+    h5: "3. Toista rikkomuskäytäntö",
+    p8: "Express IPTV ottaa tekijänoikeusrikkomukset vakavasti. DMCA-vaatimusten mukaisesti seuraamme kaikkia ilmoituksia ja ryhdymme toimiin tunnistaaksemme toistuvat rikkomukset. Toistuviin rikkomuksiin liittyvät tilit voidaan sulkea ilman erillistä ilmoitusta.",
+    h6: "4. Käytäntöpäivitykset",
+    p9: "Varaamme oikeuden muuttaa tätä DMCA-käytäntöä milloin tahansa ja mistä tahansa syystä. Suosittelemme vierailemaan tälle sivulle säännöllisesti päivityksiä varten.",
+    link1: "Lähetä DMCA-pyyntö",
+  },
+  Aboutdetails: {
+    b1: "Express IPTV:llä määrittelemme uudelleen tavan, jolla maailma katsoo televisiota.",
+    b2: "Digitaalisen median asiantuntijoiden ja teknologiainnovaattoreiden tiimin tukemana tarjoamme katselukokemuksen, joka ylittää perinteisen lähetyksen rajat. Olipa kyseessä sitten live-urheilu, kansainväliset uutiset tai menestysviihde, alustamme on suunniteltu tarjoamaan saumatonta, nopeaa ja teräväpiirtoista suoratoistoa – milloin ja missä tahansa.",
+    p1: "Jatkuvan innovaation ja asiakaslähtöisen lähestymistavan ansiosta Express IPTV:stä on tullut luotettu nimi IPTV-palveluissa, ja se tarjoaa joustavan pääsyn sisältöön, joka sopii jokaiseen elämäntyyliin.",
+  },
+  BlogBanner_section: {
+    h1: "IPTV Blog",
+    p1: "Pysy ajan tasalla, viihdytettynä ja yhteydessä!",
+  },
+  GuideBanner: {
+    title: "Asennusopas",
+    p: "IPTV-palvelun määrittäminen Express IPTV:llä on nopeaa ja helppoa! Aloita noudattamalla näitä yksinkertaisia ​​ohjeita.",
+  },
+  ChannelsSection: {
+    tile: "KANAVAT",
+    h2: "Hanki ilmainen",
+    span: "IPTV-kokeilu",
+    p: "Express IPTV:llä",
+    p1: "Ota selvää, miksi tuhannet katsojat luottavat Express IPTV:hen viihteensä suhteen. Sen sijaan, että selaatisi loputtomia IPTV-kanavaluetteloita, voit kokea eron ilmaisella IPTV-kokeiluversiolla. Palvelumme tarjoaa korkealaatuisia IPTV-kanavia, suoria urheilulähetyksiä, elokuvia ja kansainvälistä televisiota erittäin nopealla suoratoistolla ilman puskurointia. Testi-IPTV-linjalla voit nähdä laadun ennen tilauksen aloittamista. Etsitpä sitten HD IPTV:tä, suoraa TV-suoratoistoa tai luotettavaa IPTV-tilausta, Express IPTV tarjoaa sinulle täydellisen ratkaisun.",
+    req: "Pyydä ilmainen IPTV-kokeilu",
+  },
+  SlugPage: {
+    h1: "404",
+    p1: "Oops! The page you're looking for cannot be found.",
+    p2: "It seems like you've followed a broken link or entered a URL that doesn't exist.",
+    p: "Go back to Homepage",
+  },
+  blogDetails: {
+    p: "Blog Details",
+    h1: "The World of Productivity and Task Management",
+    p1: "Discover strategies to refine your daily routines, explore new features that enhance collaboration, and learn how to navigate the complexities of modern project management.Whether you're an individual looking to stay organized or a team aiming toimprove coordination, our curated content is designed to inspire and empower.",
+    h2: "Stay Informed, Work Smarter",
+    p2: "Explore expert insights, actionable tips, and the latest trends in task management to elevate your productivity and achieve your goals.",
+    str1: "Latest Trends Uncovered:",
+    li1: "Stay ahead with updates on technology & strategies shaping the task management world.",
+    str2: "Actionable Productivity Tips:",
+    li2: "Discover practical advice to streamline your workflows and make the most of your time.",
+    str3: "Expert Insights:",
+    li3: "Learn from industry leaders and gain valuable perspectives to optimize your team’s collaboration.",
+    str4: "Success Stories:",
+    li4: "Be inspired by real-world examples of how businesses and individuals achieve their goals with smarter task management.",
+    str5: "How-To Guides:",
+    li5: "Step-by-step articles that simplify complex processes and help you master new tools and techniques.",
+    h5: "Discover Strategies to Refine Your Daily Routines",
+    p3: "Explore new features that enhance collaboration, and learn how to navigate the complexities of modern project management. Whether you're an individual looking to stay organized or a team aiming to improve coordination, our curated content is designed to inspire and empower.",
+    p4: "Productivity isn’t about doing more; it’s about doing what matters most. Stay informed, stay focused, and transform the way you work.",
+    h6: "Conclusion",
+    p5: "Integrating effective task management strategies into your daily workflow is the key to boosting productivity and achieving your goals. By embracing modern tools, staying informed about industry trends, and optimizing your processes, you set yourself up for success. Whether you’re managing individual tasks or leading a team, the right approach can make all the difference in how efficiently and effectively you work.",
+  },
+  guideDetails: {
+    h1: "1. The World of Productivity and Task Management",
+    p1: "Discover strategies to refine your daily routines, explore new features that enhance collaboration, and learn how to navigate the complexities of modern project management. Whether you're an individual looking to stay organized or a team aiming toimprove coordination, our curated content is designed to inspire and empower.",
+    h2: "2. Stay Informed, Work Smarter",
+    p2: "Explore expert insights, actionable tips, and the latest trends in task management to elevate your productivity and achieve your goals.",
+    h3: "3. The World of Productivity and Task Management",
+    p3: "Discover strategies to refine your daily routines, explore new features that enhance collaboration, and learn how to navigate the complexities of modern project management. Whether you're an individual looking to stay organized or a team aiming to improve coordination, our curated content is designed to inspire and empower.",
+    h4: "4. Stay Informed, Work Smarter",
+    p4: "Explore expert insights, actionable tips, and the latest trends in task management to elevate your productivity and achieve your goals.",
+    h5: "5. The World of Productivity and Task Management",
+    p5: "Discover strategies to refine your daily routines, explore new features that enhance collaboration, and learn how to navigate the complexities of modern project management. Whether you're an individual looking to stay organized or a team aiming to improve coordination, our curated content is designed to inspire and empower.",
+    h6: "6. Stay Informed, Work Smarter",
+    p6: "Explore expert insights, actionable tips, and the latest trends in task management to elevate your productivity and achieve your goals.",
+    h7: "7. The World of Productivity and Task Management",
+    p7: "Discover strategies to refine your daily routines, explore new features that enhance collaboration, and learn how to navigate the complexities of modern project management. Whether you're an individual looking to stay organized or a team aiming to improve coordination, our curated content is designed to inspire and empower.",
+    h8: "8. Stay Informed, Work Smarter",
+    p8: "Explore expert insights, actionable tips, and the latest trends in task management to elevate your productivity and achieve your goals.",
+  },
+  StreamingAnywhere: {
+    h1: "Striimaa missä tahansa",
+    p1: "Viihteen maailmasi, milloin tahansa, missä tahansa!",
+  },
+  IPTVBoxes_Content: {
+    span: "Top IPTV Boxes",
+    span1: "for Seamless Streaming",
+    p: "Reliable, fast, and easy-to-use IPTV boxes built for the ultimate viewing experience.",
+    btn: "OSTA NYT",
+    h2: "Paras IPTV-tilaus Yhdysvalloissa",
+    span2: "Miksi valita Express IPTV",
+    p1: "Maailmassa, jossa digitaalinen viihde hallitsee, luotettavan ja laadukkaan IPTV-liittymän löytäminen voi olla ratkaiseva tekijä. Express IPTV määrittelee uudelleen tavan, jolla amerikkalaiset suoratoistavat televisiota – tarjoten rajattomasti viihdettä, erittäin nopeita palvelimia ja lyömätöntä arvoa. Jos etsit parasta IPTV-palvelua Yhdysvalloissa, etsi Express IPTV.",
+    h4: "Miksi Express IPTV on paras IPTV-palveluntarjoaja Yhdysvalloissa",
+    p2: "IPTV-palveluntarjoajia verrattaessa on tärkeää tarkastella sisältöä, luotettavuutta, suoratoiston suorituskykyä ja kohtuuhintaisuutta. Express IPTV on paljon muita palveluntarjoajia edellä, kun se tulee:",
+    str1: "Yli 45 000 live-kanavaa",
+    li1: "Suoratoista sisältöä paikallisilta, yhdysvaltalaisilta ja kansainvälisiltä kanavilta useilla kielillä. Halusitpa sitten NFL-, NBA-, MLB- tai kansainvälistä ohjelmointia, meillä on se!",
+    str2: "Yli 80 000 elokuvaa ja TV-ohjelmaa pyynnöstä",
+    li2: "Saat välittömän pääsyn laitteesi uusimpiin elokuviin ja ohjelmiin milloin haluat.",
+    str3: "4K-, Full HD- ja HD-suoratoisto",
+    li3: "Katso suosikkikanaviasi parhailla resoluutioilla parhaan suoratoistokokemuksen saavuttamiseksi.",
+    str4: "Nopea aktivointi ja helppo asennus",
+    li4: "Aloita nopeasti Firestickillä, Rokulla, Smart TV:llä, Android-laitteilla, iOS:llä, Windowsilla ja muilla laitteilla. Helppo asentaa, ei vaadi teknistä osaamista.",
+    str5: "Yhteensopivuus kaikkien laitteiden kanssa",
+    li5: "Käytä Express IPTV:tä kaikilla laitteillasi, mukaan lukien Firestick, Apple TV, Smart TV, Roku, Android-laitteet, iPhonet ja tabletit.",
+    str6: "Edulliset kuukausipaketit",
+    li6: "Alkaen vain 14,99 $/kk, saat premium-suoratoiston ilman suuria kaapelilaskuja.",
+    str7: "Omistettu 24/7 asiakastuki",
+    li7: "Asiakastukemme on käytettävissä 24/7 auttamaan sinua asennuksessa, vianmäärityksessä ja ohjeissa.",
+    h5: "Yhteensopiva kaikkien tärkeimpien IPTV-sovellusten kanssa",
+    p3: "Express IPTV toimii saumattomasti nykyään saatavilla olevien suosituimpien ja luotettavimpien IPTV-sovellusten kanssa:",
+    str8: "TiviMate:",
+    li8: "Täydellinen EPG-käyttöliittymä ja ohut ulkoasu parantavat katselukokemusta.",
+    str9: "IPTV Smarters Pro:",
+    li9: "Tukee jopa 4 kanavaa samanaikaisesti jaetun näkymän avulla sekä käyttäjäystävällisiä ominaisuuksia, kuten edistynyt EPG, catch-up TV ja lapsilukko monipuoliseen suoratoistoon.",
+    str10: "XCIPTV Player:",
+    li10: "Mukautetut asetukset ja dynaaminen toiston ohjaus mukautettua katselua varten.",
+    str11: "GSE Smart IPTV:",
+    li11: "Tukee useita muotoja ja mukautettuja soittolistoja joustavaan hallintaan.",
+    str12: "Perfect Player IPTV:",
+    li12: "Erinomainen elektronisten ohjelmaoppaiden (EPG) ja M3U-soittolistojen tehokkaaseen hallintaan.",
+    str13: "Kodi:",
+    li13: "Integroituu helposti Express IPTV:n kanssa täydellisen mediakeskuksen luomiseksi, joka yhdistää IPTV:n ja muut medialähteet.",
+    h6: "Striimaa parhailla laitteilla – 100 % yhteensopiva Express IPTV:n kanssa",
+    p4: "Olitpa satunnainen katsoja tai vakavasti katsova suoratoisto, Express IPTV on optimoitu kaikille suosikkilaitteillesi:",
+    li14: "Amazon Firestick / Fire TV",
+    li15: "Android TV -laatikot (Nvidia Shield, X96 Max jne.)",
+    li16: "Apple TV ja iOS-laitteet",
+    li17: "MAG-laitteet ja Formuler Z -boksit",
+    li18: "Älytelevisiot (Samsung, LG, Sony, Vizio)",
+    li19: "Windows- ja Mac-tietokoneet",
+    li20: "Chromecast with Google TV",
+    li21: "Roku (yhteensopivat sovellukset)",
+    h6: "Miksi Express IPTV on paras IPTV-palvelu Yhdysvalloissa",
+    p5: "Express IPTV:n avulla et vain osta tilausta, vaan päivität koko viihdekokemuksesi. Ensiluokkainen kanavavalikoimamme, on-demand-kirjastomme, kristallinkirkas suoratoiston laatu ja vakaa palvelimen käyttöaikamme tekevät meidät kilometrien edellä tyypillisiä IPTV-palveluntarjoajia.",
+    p6: "Olitpa sitten urheilufanaatikko, elokuvien ystävä tai haluat vain katkaista johtoa ja säästää rahaa, Express IPTV tarjoaa äärimmäisen ratkaisun.",
+    h7: "Aloita suoratoisto Express IPTV:llä tänään",
+    p7: "Ei sopimuksia. Ei piilokuluja. Vain huippuluokan IPTV-suoratoisto, joka on suunniteltu Yhdysvaltain katsojille. Oletko valmis vaihtamaan? Aloita tänään ja avaa loputon viihde.",
+    name1: "Onyx IPTV Box",
+    price1: "$159.99",
+    img1: "https://peoplestv.nl/wp-content/uploads/2025/06/OXM-252x300.png",
+
+    name2: "Tvip 705 s",
+    price2: "$209.99",
+    img2: "https://peoplestv.co/wp-content/uploads/2025/06/tvip-605s.jpg",
+
+    name3: "Formuler Z11 Pro",
+    price3: "$284.99",
+    img3: "https://peoplestv.co/wp-content/uploads/2025/06/z-11-pro-600x715.jpg",
+
+    name4: "Formuler Z11 Pro Max",
+    price4: "$314.99",
+    img4: "https://peoplestv.co/wp-content/uploads/2025/06/z11-pro-max-600x715.jpg",
+  },
+  FaqList: {
+    q1: "Mikä on IPTV?",
+    ans1: "IPTV tarkoittaa Internet Protocol Televisionia, ja se on tapa suoratoistaa televisiosisältöä Internetin kautta perinteisen kaapelin tai satelliitin sijaan.",
+    q2: "Tarvitsenko nopean Internet-yhteyden IPTV:tä varten?",
+    ans2: "IPTV toimittaa suosikki-TV-ohjelmasi, -elokuvasi ja live-kanavasi suoraan laitteellesi Internetin kautta, mikä mahdollistaa enemmän joustavuutta ja vähemmän keskeytyksiä kuin perinteinen kaapeli.",
+    q3: "Mitkä ovat parhaat IPTV-palveluntarjoajat?",
+    ans3: "Express IPTV on yksi vuoden 2025 parhaista palveluntarjoajista, joka tarjoaa luotettavaa palvelua, joustavia suunnitelmia ja pääsyn maailmanlaajuiseen sisältöön.",
+    q4: "Onko IPTV laillista Yhdysvalloissa?",
+    ans4: "Kyllä, IPTV on laillista Yhdysvalloissa niin kauan kuin sisältö on peräisin laillisilta palveluntarjoajilta. Tarkista aina palveluntarjoajan tunnistetiedot ennen tilaamista.",
+    q5: "Mitä laitteita voin käyttää IPTV:n kanssa?",
+    ans5: "Voit nauttia Express IPTV:stä useilla laitteilla, mukaan lukien Firestick, Apple TV, Roku, älypuhelimet ja tabletit.",
+  },
+  FaqList2: {
+    q1: "Mikä on IPTV?",
+    ans1: "IPTV on lyhenne sanoista Internet Protocol Television, ja se on tapa suoratoistaa televisiosisältöä Internetin kautta perinteisen kaapelin tai satelliitin sijaan.",
+    q2: "Miten IPTV toimii?",
+    ans2: "IPTV toimittaa suosikki-TV-ohjelmasi, -elokuvasi ja live-kanavasi suoraan laitteellesi Internetin kautta, mikä mahdollistaa enemmän joustavuutta ja vähemmän keskeytyksiä kuin perinteinen kaapeli.",
+    q3: "Mitkä ovat parhaat IPTV-palveluntarjoajat?",
+    ans3: "Express IPTV on yksi vuoden 2025 parhaista palveluntarjoajista, joka tarjoaa luotettavaa palvelua, joustavia paketteja ja pääsyn maailmanlaajuiseen sisältöön.",
+    q4: "Onko IPTV laillista Yhdysvalloissa?",
+    ans4: "Kyllä, IPTV on laillista Yhdysvalloissa niin kauan kuin sisältö tulee laillisilta palveluntarjoajilta. Tarkista aina palveluntarjoajan laillisuus ennen tilaamista.",
+    q5: "Mitä laitteita voin käyttää IPTV:n kanssa?",
+    ans5: "Voit käyttää Express IPTV:tä useilla laitteilla, mukaan lukien Firestick, Apple TV, Roku, älypuhelimet ja tabletit.",
+  },
+  FaqList3: {
+    q6: "Puskurointi tai jäädyttäminen",
+    ans6: `Yhden kanavan puskurointi: Ota meihin yhteyttä live-chatin kautta saadaksesi välitöntä apua.
+Kaikkien kanavien puskurointi: Käytä VPN:ää ratkaistaksesi mahdolliset internet-palveluntarjoajan tai maantieteellisen sijainnin suoratoisto-ongelmat.`,
+    q7: "Sovellus kaatuu tai ei toimi",
+    ans7: `Käynnistä sovellus ja laite uudelleen.
+Tyhjennä sovelluksen välimuisti/tiedot, jos mahdollista.
+Jos ongelmat jatkuvat, ota yhteyttä tukeen chatin kautta.`,
+    q8: "“Kanava ei ole käytettävissä” -virhe",
+    ans8: `Tämä tarkoittaa yleensä, että laitteesi suoratoistotunnus on vanhentunut.
+Korjaus:
+Irrota laite pistorasiasta, odota muutama sekunti ja kytke se sitten takaisin.
+
+Vinkki: Vältä sovelluksen pitämistä käynnissä, kun sitä ei käytetä. Käynnistä se aina uudelleen ennen katselua.`,
+    q9: "Ei ääni-/video- tai synkronointiongelmia",
+    ans9: `Yhden kanavan ongelma: Lähetä meille viesti chatissa saadaksesi nopean korjauksen.
+Useiden kanavien ongelma vaikuttaa: Käynnistä laite/sovellus uudelleen. Asenna uudelleen tarvittaessa tai kokeile toista laitetta.`,
+  },
+  FaqResller: {
+    q10: "Onko IPTV:stä asennusmaksu?",
+    ans10: "Ei, ostat vain krediittejä ja alat käyttää palvelua välittömästi.",
+    q11: "Kuinka monta laitetta voin käyttää IPTV-tiliä kohden?",
+    ans11:
+      "Laitteiden lukumäärä on räätälöitävissä paketin mukaan yksittäisestä suoratoistosta rajoittamattomiin samanaikaisiin yhteyksiin.",
+    q12: "Vanhenevatko IPTV-krediitit?",
+    ans12:
+      "Ei, krediitit eivät koskaan vanhene, ja niitä voidaan käyttää milloin tahansa tilausten lisäämiseen tai uusimiseen.",
+    q13: "Voinko rekrytoida alijälleenmyyjiä IPTV:tä varten?",
+    ans13:
+      "Kyllä, voit antaa luovia oikeuksia pääjälleenmyyjille tai hallita alijälleenmyyjiä itse.",
+  },
+  FeedbackForm: {
+    h1: "Express IPTV on johtava älykkäiden IPTV-ratkaisujen valmistaja.",
+    p1: "Nauti IPTV:n parhaasta ja korkeimmasta suorituskyvystä parhaan IPTV-palvelintekniikan avulla. Hanki puskuriton suoratoistokokemus kaikilla laitteillasi. Voit myös ottaa meihin yhteyttä mihin aikaan vuodesta tahansa, 24 tuntia vuorokaudessa, 7 päivää viikossa, sillä asiakastukemme toimii ympäri vuorokauden.",
+    pric: "Katso hinnoittelu",
+  },
+  AboutFeatures: {
+    sub1: "Saumaton suoratoisto",
+    sub2: "Vuodet liiketoiminnassa",
+    sub3: "Tukea",
+    sub4: "Asiakkaat",
+    desc1:
+      "Takaamme saumattoman suoratoistokokemuksen lähes ilman keskeytyksiä, joten voit nauttia suosikkisisällöstäsi ilman vaivaa.",
+    desc2:
+      "Yli kahdeksan vuoden kokemuksella IPTV-alalta olemme hioneet palveluitamme tarjotaksemme huippuluokan viihdettä kaikille käyttäjillemme.",
+    desc3:
+      "Omistautunut tukitiimimme on aina valmiina auttamaan sinua. Olipa kyseessä tekninen ongelma tai tarvitset vain ohjausta, olemme täällä sinua varten kellon ympäri.",
+    desc4:
+      "Yli 150 000 tyytyväisen asiakkaan luottama maailmanlaajuisesti. Liity kasvavaan yhteisöömme ja koe ennennäkemätöntä viihdettä.",
+  },
+};
+
+export default Finnish;
